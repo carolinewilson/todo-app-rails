@@ -1,24 +1,24 @@
-# README
+# Rails todo app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-
+This is a basic todo app built with Rails 5.
+###Get Started
+```ruby
+# Clone the repo
+git clone git@github.com:carolinewilson/todo-app-rails.git
 
-Things you may want to cover:
+# cd into repo
+cd ./todo-app-rails
 
-* Ruby version
+# Install required gems
+bundle install
 
-* System dependencies
+# Start the server
+rails s
+```
 
-* Configuration
+Once you've performed the above actions, you can view the website at http://localhost:3000. 
 
-* Database creation
+-
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app was built following the [Mackenzie Child] (https://github.com/mackenziechild/Todo-App) tutorial.
